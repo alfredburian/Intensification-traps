@@ -1,0 +1,9 @@
+relationship,parameter,range.lower,range.upper
+A,mean.Y.WL,0.1,0.9
+A,var.Y.WL,0.01,0.99
+B,min.Y.E,0.01,0.8
+B,slope.input.Y.E,-1,0
+C,min.Y.B,0.01,0.99
+C,slope.input.Y.B,-1,1
+D,min.Bio.E,0.01,0.8
+D,slope.input.Bio.E,-1,1

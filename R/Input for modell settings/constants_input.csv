@@ -1,0 +1,22 @@
+constant,mean,sd,limits,range.lower,range.upper
+slope.input.Bio.E,0.252857143,0.372113063,!< -1 & !>1,-1,1
+min.Bio.E,0.325636532,0.165355723,!< 0 & !>1,0.01,0.5
+var.Y.WL,0.222562008,0.127921418,!< 0 & !>1,0,1
+mean.Y.WL,0.454352773,0.12860003,0.1 - 0.9,0.3,0.75
+slope.input.Y.B,-0.363529412,0.397554103,!< -1 & !>1,-1,1
+min.Y.B,0.403606647,0.237136384,!< 0 & !>1,0.1,0.9
+slope.input.Y.E,-0.527272727,0.142049527,!< -1 & !>1,-1,1
+min.Y.E,0.226764554,0.279830457,!< 0 & !>1,0.05,0.75
+slope.Cost.WL,0.3,0.2,!=< 0,,
+min.Cost.WL,0.35,0.16,!=< 0,,
+Cost.baseline,0.4,0.17,def,,
+Cost.E,0.8,0.12,def,,
+Ymax,1,0,-,,
+TE.mean,0.25,0.2,!=< 0,,
+TE.sd,0.4,0.3,!=< 0,,
+neg.spill,0.9,0.1,!=< 0,,
+slope.input.Y.WL,0.6,0.2,!=< 0,do I need those,
+min.Y.WL,0.35,0.1,!=< 0,do I need those,
+slope.input.Bio.WL,0.8,0.15,!=< 0,do I need those,
+min.Bio.WL,0.4,0.12,!=< 0,do I need those,
+pesticidies,0.5828,0.2345,!< 0 & !>1,,

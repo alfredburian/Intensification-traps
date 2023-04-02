@@ -1,0 +1,14 @@
+constant,value,limits,explanation
+slope.input.Bio.E,0,!< -1 & !>1,"non-linearity of the relationship between intensification effort and biodiversity; ranges from -1 to 1. 0 represents a linear relationship, -1 one is a strongly convex and +1 a strongly concave relationship"
+min.Bio.E,0.8,!< 0 & !>1,minimum value of biodiversity when intensification effort is 0 (can be interpretated as 1-impact size). Ranges from 0 to 1.
+var.Y.WL,0.243657896,0.1 - 0.9,mean yield of all grid cells in a landscape
+mean.Y.WL,0.458229288,0-inf,standard deviation of the yield of all grid cell;  represents landscape heterogenity; is confinded to a vlaue between 0.1 and 0.9.
+slope.input.Y.B,-0.397857143,!< 0 & !>1,"non-linearity of the relationship between biodiversity and yield; ranges from -1 to 1. 0 represents a linear relationship, -1 one is a strongly concave  and +1 a strongly convex relationship"
+min.Y.B,0.393449217,!< 0 & !>1,minimum yield when biodiversity is 0 (can be interpretated as 1-impact size). Ranges from 0 to 1.
+slope.input.Y.E,-0.506,!< -1 & !>0,"non-linearity of the relationship between intensification effort and biodiversity; ranges from -1 to 0. 0 represents a linear relationship, -1 a strongly concave relationship"
+min.Y.E,0.21,!< 0 & !>1,minimum yield when intensification effort is 0 (can be interpretated as 1-impact size). Ranges from 0 to 1.
+TE.mean,0.25,!< 0 & !>1,"mean treshold of existence, representing mean habitat requriemts of a species; if threshold is 0.4 at least 40% of the landscape need to be suitable habitat"
+TE.sd,0.4,!=< 0,standard deviation of the treshold of existence
+WL.habitat,20,0-100,percentage of species of the species pool that only live in WL
+NWL.habitat,70,0-100,percentage of species of the species pool that live only in non-WL
+both.habitat,10,0-100,percentage of species of the species pool that can live in both WL and non-WL
